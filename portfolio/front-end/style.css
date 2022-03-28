@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    cursor: default;
+    font-weight: normal;
+    font-family: sans-serif
+}
+
+body {
+    background: linear-gradient(to top, #187000, #187000, #187000, #187000, #187000, #187000,  #AFD9A9);
+    margin: 0;
+    border: 0;
+    padding: 0;
+    max-width: 3000px;
+    min-width: 300px;
+}
+
+main {
+    background-image: url("../assets/paisagem.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+nav {
+    background-color: #759b6f;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: auto;
+    border-radius: 20px;
+    font-size: 3.5vw;
+    font-family: Arial, sans-serif;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.219);
+}
+
+strong {
+    font-weight:bolder;
+}
+
+
+button {
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    border: 0;
+}
+
+button:hover {
+    font-size: 21px;
+    background-color: #1B593C;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+a {
+    color: rgb(0, 51, 8);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h3 {
+    margin: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p a {
+    color: #ffff;
+    font-weight: bolder;
+}
+
+img {
+    width: 20px;
+}
+
+menu {
+    margin-top: 40px;
+    margin-bottom: 0;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0;
+    text-align: center;
+    background-color: black;
+}
+
+p {
+    background-color: black;
+    color: white;
+}
+
+.title {
+    margin-top: 40px;
+    margin-bottom: 35px;
+    display: inline-block;
+    align-items: center;
+    font-size: 49px;
+    font-family: monospace, sans-serif;
+    text-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+}
+
+.title:hover {
+	font-size: 65px;
+	text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+	transition: 0.5s;
+    margin-top: 1px;
+}
+
+#main {
+    background-color: rgb(30, 130, 0, 0.4);
+    max-width: 3000px;
+    min-width: 320px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 30px 0px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.534);
+}
+
+#sub-titulo {
+    text-align: center;
+    font-size: 22px;
+}
+
+#redessociais {
+    width: 300px;
+    margin: auto;
+    border-radius: 90px;
+    background-color: rgba(255, 255, 255, 0.623);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.178);
+    margin-bottom: 15px;
+}
+
+#me {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    background-image: linear-gradient(to right, #1B593C, transparent)
+}
+
+#guanabara {
+    margin-bottom: 0;
+}
+
+p#teleport {
+    display: none;
+}
+
+#comeco {
+    margin: auto;
+}
+
+#comecoH1 {
+    width: 39vh;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
