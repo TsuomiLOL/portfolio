@@ -7,6 +7,28 @@
     font-family: sans-serif
 }
 
+@media (max-width: 10px) {
+    h1#redessociais {
+        width: 240px;
+        font-size: 28px
+    }
+
+    h3#sub-titulo {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    h1.title {
+        margin-top: 40px;
+        margin-bottom: 35px;
+        display: inline-block;
+        align-items: center;
+        font-size: 43px;
+        font-family: monospace, sans-serif;
+        text-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+    }
+}
+
 body {
     background: linear-gradient(to top, #187000, #187000, #187000, #187000, #187000, #187000,  #AFD9A9);
     margin: 0;
