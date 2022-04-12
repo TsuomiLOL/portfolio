@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 * {
     margin: 0;
     border: 0;
     padding: 0;
     cursor: default;
     font-weight: normal;
-    font-family: sans-serif
+    font-family: 'Open Sans',sans-serif;
 }
 
 body {
@@ -121,7 +123,7 @@ p {
     max-width: 800px;
     border-radius: 0px 20px 0px 20px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-    background-color: rgba(255,255,255);
+    background-color: rgba(255,255,255,0.8);
     margin-bottom: 40px;
     margin-right: auto;
     margin-left: auto;
