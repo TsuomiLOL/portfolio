@@ -62,7 +62,7 @@ button:hover {
 }
 
 a {
-    color: rgb(0, 51, 8);
+    color: blue;
     text-decoration: none;
     cursor: pointer;
 }
@@ -130,7 +130,7 @@ p {
 }
 
 #main {
-    background-color: rgb(30, 130, 0, 0.4);
+    background-color: rgb(30, 130, 0, 0.5);
     max-width: 3000px;
     min-width: 320px;
     padding-top: 0px;
@@ -155,6 +155,11 @@ p {
     margin-bottom: 15px;
 }
 
+#projetosimg {
+    max-width: 10000px;
+    min-width: 310px;
+}
+
 #me {
     margin-top: 20px;
     margin-bottom: 15px;
@@ -166,10 +171,6 @@ p {
     margin-bottom: 0;
 }
 
-p#teleport {
-    display: none;
-}
-
 #comeco {
     margin: auto;
 }
@@ -179,4 +180,15 @@ p#teleport {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+}
+
+#flex {
+    display: flex;
+    flex-direction: column;
+}
+
+#flex img {
+    width: 20%;
+    height: 20%;
+    border-radius: 10px;
 }
