@@ -79,6 +79,8 @@ a:hover {
 p a {
     color: #ffff;
     font-weight: bolder;
+    text-decoration: underline;
+    
 }
 
 img {
@@ -130,7 +132,7 @@ p {
 }
 
 #main {
-    background-color: rgb(30, 130, 0, 0.5);
+    background-color: rgb(61, 178, 39, 0.5);
     max-width: 3000px;
     min-width: 320px;
     padding-top: 0px;
